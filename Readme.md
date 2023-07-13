@@ -1,6 +1,6 @@
 ## TAGNet: A transformer-based axial guided network for bile duct segmentation
 
-Implementation of [TAGNet](https://www.sciencedirect.com/science/article/abs/pii/S1746809423006778) in Pytorch, a bile duct segmentation model based on CNN and Transformer hybrid architecture network. The paper has been accepted on https://www.sciencedirect.com/science/article/abs/pii/S1746809423006778
+Implementation of [TAGNet](https://www.sciencedirect.com/science/article/abs/pii/S1746809423006778) in Pytorch, a bile duct segmentation model based on CNN and Transformer hybrid architecture network. The paper has been accepted on [here](https://www.sciencedirect.com/science/article/abs/pii/S1746809423006778).
 
 ![model](imgs/model.png)
 
