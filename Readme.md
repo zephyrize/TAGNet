@@ -36,7 +36,7 @@ Considering the privacy issues involved in the data, the bile duct dataset is no
 
 ​	---dataset.json
 
-The `xxx` represents the serial number of the data. The file `dataset.json` stores path information for each data and will be generated while preprocessing raw data (CT images). 
+The `xxx` represents the serial number of the raw data. The file `dataset.json` stores path information for each data and will be generated while preprocessing raw data (CT images). 
 
 #### Data preprocess
 
@@ -45,6 +45,14 @@ You can preprocess your own data via:
 ```shell
 python preprocessor.py --root_dir your_data_root_dir --dataset your_dataset_name
 ```
+
+We also implement different data preprocessing methods (in the folder named preprocess), represented by the parameter `process_type`.
+
+`--process_type: 2D`  Do not interpolate raw data, only resize and normalize are performed.
+
+`--process_type: 2.5D`  Do interpolation on the z axis to the raw data.
+
+`--process_type: 3D` Do interpolation for the xyz axis. 
 
 ### Model Training
 
