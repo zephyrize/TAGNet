@@ -350,7 +350,7 @@ class TAGNet(nn.Module):
         # features4_pool = [self.Maxpool(features4[i]) for i in range(slices_num)]
         x5 = self.Maxpool(res_encoder4) 
 
-        res_encoder5 = self.encoder5(x5) # 最后一次无池化 torch.Size([8, 1024, 16, 16])
+        res_encoder5 = self.encoder5(x5) # torch.Size([8, 1024, 16, 16])
         
         # deocer and contact
 
