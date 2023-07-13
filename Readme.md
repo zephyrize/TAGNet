@@ -2,6 +2,8 @@
 
 Implementation of [TAGNet](https://www.sciencedirect.com/science/article/abs/pii/S1746809423006778) in Pytorch, a bile duct segmentation model based on CNN and Transformer hybrid architecture network. The paper has been accepted on https://www.sciencedirect.com/science/article/abs/pii/S1746809423006778
 
+![model](imgs/model.png)
+
 ### Data Prepocessing
 
 Considering the privacy issues involved in the data, the bile duct dataset is not made public. You can train and test the model on some publicly available liver vascular datasets (CT images).
@@ -105,6 +107,12 @@ python summary.py
 ```
 
 Before running the py file, you need to manually specify the output path of the file (`predict_path`), the path of the ground truth (`gt_path`), and the model name (`model_name`) in the code.
+
+### Segmentation Results
+
+![2Dvis](imgs/2Dvis.png)
+
+![3Dvis](imgs/3Dvis.png)
 
 ### Citation
 
