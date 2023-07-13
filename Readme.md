@@ -12,31 +12,31 @@ Considering the privacy issues involved in the data, the bile duct dataset is no
 
 ---code
 
-​	---TAGNet source code
+​	**&emsp**---TAGNet source code
 
 ---data
 
-​	---imagesTr
+​	**&emsp**---imagesTr
 
-​		---BileDuct_xxx_volume.nii.gz
+​		**&emsp** **&emsp**---BileDuct_xxx_volume.nii.gz
 
-​	---imagesTs
+​	**&emsp**---imagesTs
 
-​		---BileDuct_xxx_volume.nii.gz
+​		**&emsp** **&emsp**---BileDuct_xxx_volume.nii.gz
 
-​	---labelsTr
+​	**&emsp**---labelsTr
 
-​		---BileDuct_xxx_label.nii.gz
+​		**&emsp** **&emsp**---BileDuct_xxx_label.nii.gz
 
-​	---labelsTs
+​	**&emsp**---labelsTs
 
-​		---BileDuct_xxx_label.nii.gz
+​		**&emsp** **&emsp**---BileDuct_xxx_label.nii.gz
 
-​	---mask
+​	**&emsp**---mask
 
-​		---BileDuct_xxx_liver.nii.gz
+​		**&emsp** **&emsp**---BileDuct_xxx_liver.nii.gz
 
-​	---dataset.json
+​	**&emsp**---dataset.json
 
 The `xxx` represents the serial number of the raw data. The file `dataset.json` stores path information for each data and will be generated while preprocessing raw data (CT images). 
 
